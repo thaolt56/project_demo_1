@@ -1,0 +1,272 @@
+body {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* --------header--------- */
+
+
+/* ---------header-sub--------- */
+
+.header-sub {
+    background-color: #000000;
+    border-bottom: 1.5px solid #363636;
+    padding: 4px 0px;
+    font-size: 14px;
+}
+
+.header-sub span {
+    color: #eeeeee;
+}
+
+.icon-header {
+    margin-left: 150px;
+}
+
+
+/* -----------main-menu---------- */
+
+#main-menu {
+    background-color: #000000;
+    font-size: 14px;
+}
+
+.navbar-brand {
+    margin-right: 85px;
+}
+
+ul.navbar-nav li {
+    margin-right: 10px;
+    padding: 18px 0px;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    color: rgb(234, 214, 214);
+}
+
+.navbar-expand-xl .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.icon-header span {
+    width: 20px;
+    top: -17px;
+    right: -10px;
+}
+
+.dropdown-menu a:hover {
+    color: red;
+}
+
+.dropdown-menu {
+    background-color: #f9f9f9;
+    padding: 20px 50px 20px 0px;
+}
+
+.dropdown-menu a {
+    color: #363636;
+    font-weight: 400;
+}
+
+
+/* -------slide-show------- */
+
+.carousel-caption {
+    width: 530px;
+    left: 17%;
+    right: 48%;
+    bottom: 25%;
+}
+
+.carousel-caption .discount {
+    font-size: 18px;
+    color: #000000;
+    font-family: Myriad Pro;
+}
+
+.carousel-caption .discount-name {
+    font-size: 50px;
+    font-weight: 700;
+    color: #e2524a;
+    font-family: Myriad Pro;
+}
+
+.carousel-caption .discount-info {
+    font-size: 18px;
+    color: #343434;
+    font-family: Myriad Pro;
+}
+
+.carousel-caption button {
+    padding: 5px 30px;
+}
+
+.carousel-indicators li {
+    background-color: #343434;
+    width: 45px;
+    height: 4px;
+    opacity: 1;
+}
+
+.carousel-indicators li.active {
+    background-color: red;
+}
+
+
+/* -------guarantee-info--------- */
+
+.guarantee-info {
+    padding: 80px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.guarantee-info a {
+    color: #888787;
+    background-color: #f4f4f4;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.guarantee-info i {
+    font-size: 40px;
+}
+
+.guarantee-info span {
+    font-size: 16px;
+}
+
+.guarantee-info a:hover {
+    color: red;
+}
+
+
+/* ----------------product-new---------- */
+
+.product-new {
+    padding-top: 85px;
+    padding-bottom: 40px;
+}
+
+.product-tittle a {
+    color: #343434;
+    font-weight: 500;
+}
+
+.product-info {
+    margin-top: 20px;
+}
+
+.product-tittle a:hover {
+    color: red;
+}
+
+.product-item {
+    margin-bottom: 30px;
+}
+
+.product-thumb {
+    overflow: hidden;
+}
+
+.product-thumb a img:hover {
+    transform: scale(1.05);
+}
+
+
+/* ------------product-category------ */
+
+.card {
+    border: none;
+}
+
+.product-category {
+    margin-top: 50px;
+}
+
+.card-img-overlay {
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.card-img-overlay button {
+    padding: 7px 30px;
+}
+
+
+/* ----------pagination------ */
+
+.best-sale {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.page-link {
+    background-color: black;
+}
+
+.page-link:hover {
+    background-color: red;
+}
+
+.page-item {
+    padding: 2px;
+}
+
+
+/* ---------product-share----- */
+
+.product-share {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.card-deck {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-deck .card a {
+    overflow: hidden;
+}
+
+.card-deck .card img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ------------footer-------- */
+
+#footer {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: black;
+}
+
+.box-body {
+    color: white;
+}
+
+.box-body ul li a {
+    color: white;
+}
+
+.box-body ul li {
+    padding-top: 10px;
+}
+
+.box-head h5 {
+    color: #e2524a;
+}
+
+
+/* --------copy-right-------- */
+
+#copy-right {
+    padding: 12px 0px;
+    font-size: 14px;
+    background-color: #e2524a;
+    color: white;
+}

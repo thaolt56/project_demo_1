@@ -1,0 +1,47 @@
+/*Ipad ngang (1024 x 768)*/
+@media screen and (max-width: 1024px){
+    .icon-header{
+        display: none;
+    }
+
+}
+/*Ipad doc (768 x 1024)*/
+@media screen and (max-width: 768px){
+    .header-sub .phone{
+        display: none;
+      
+    }
+    .header-sub .work-time{
+        display: none;
+      
+    }
+    .header-sub .mail{
+        display: none;
+      
+    }
+    .header-sub{
+        display: none;
+    }
+    ul.navbar-nav li{
+        padding: 4px;
+        font-size: 12px;
+    }
+    .navbar-nav .dropdown-menu{
+        padding: 5px;
+    }
+    
+}
+
+/*tablet nho (600 x 800)*/
+@media screen and (max-width: 600px){
+    .guarantee-info {
+        display: none;
+    }
+    
+}
+/*Iphone (480 x 640)*/
+@media screen and (max-width: 320px){
+}
+/*smart phone nho */
+@media screen and (max-width: 240px){
+}
